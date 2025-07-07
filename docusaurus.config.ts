@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'クラウド勤怠',
+  title: 'クラウド勤怠マニュアル',
   tagline: 'クラウド勤怠の公式マニュアル',
   favicon: 'img/favicon.ico',
 
@@ -71,7 +71,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'クラウド勤怠',
+      title: 'クラウド勤怠マニュアル',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
