@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcloud_kintai_manual=self.webpackChunkcloud_kintai_manual||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Blog","authorsListPath":"/blog/authors"}')}}]);
