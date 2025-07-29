@@ -1,0 +1,8 @@
+{
+  "label": "勤怠一覧",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "スタッフ向けの勤怠一覧の使い方を説明します。"
+  }
+}
