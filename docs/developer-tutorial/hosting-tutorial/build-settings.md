@@ -16,7 +16,9 @@ sidebar_position: 5
 | --- | --- |
 | `BUCKET_NAME` | S3のバケット名(自動生成されたものを使用) |
 | `VITE_OFFICE_MODE` | オフィスモードの設定（`true`または`false`） |
-| `VITE_STANDARD_REGISTER_DISABLE` | 標準登録の無効化（`true`または`false`） | 
+| `VITE_STANDARD_REGISTER_DISABLE` | 標準登録の無効化（`true`または`false`） |
+| `VITE_BASE_PATH` | 勤怠アプリに使用しているドメイン(`https://example.com/`のように) |
+| `VITE_ADMIN_MAIL_ADDRESS` | 管理者用メールアドレス(システムからの通知受信用) |
 
 ### BUCKET_NAMEの取得方法
 
@@ -27,6 +29,10 @@ Amplifyのバックエンド環境で作成されたS3バケットの名前を�
 ### VITE_OFFICE_MODEの設定(ベータ)
 
 `VITE_OFFICE_MODE`は、オフィスモードの設定です。オフィスモードは、オフィスに設置したパソコンからのアクセスを想定したモードで、特定の機能や表示が有効になります。オフィスモードを有効にする場合は`true`、無効にする場合は`false`を設定します。
+
+### VITE_ADMIN_MAIL_ADDRESS
+
+`VITE_ADMIN_MAIL_ADDRESS`は、システムからの通知を受け取るための管理者用メールアドレスです。このメールアドレスは、スタッフの出退勤などの情報が送信される際に使用されます。適切なメールアドレスを設定してください。
 
 ## ライブパッケージの更新
 
