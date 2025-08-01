@@ -73,7 +73,7 @@ const config: Config = {
     navbar: {
       title: 'クラウド勤怠マニュアル',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'クラウド勤怠 Logo',
         src: 'img/logo.svg',
       },
       items: [
