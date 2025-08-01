@@ -1,0 +1,8 @@
+{
+  "label": "勤怠管理",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "スタッフの勤怠を管理するためのセクションです。"
+  }
+}
