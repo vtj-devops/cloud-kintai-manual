@@ -12,13 +12,14 @@ sidebar_position: 5
 
 ここでは、環境変数を設定します。以下の変数を追加してください。
 
-| 変数名 | 値 |
-| --- | --- |
-| `BUCKET_NAME` | S3のバケット名(自動生成されたものを使用) |
-| `VITE_OFFICE_MODE` | オフィスモードの設定（`true`または`false`） |
-| `VITE_STANDARD_REGISTER_DISABLE` | 標準登録の無効化（`true`または`false`） |
-| `VITE_BASE_PATH` | 勤怠アプリに使用しているドメイン(`https://example.com/`のように) |
-| `VITE_ADMIN_MAIL_ADDRESS` | 管理者用メールアドレス(システムからの通知受信用) |
+| 変数名 | 値 | 備考 |
+| --- | --- | --- |
+| `BUCKET_NAME` | S3のバケット名(自動生成されたものを使用) |  |
+| `VITE_OFFICE_MODE` | オフィスモードの設定（`true`または`false`） |  |
+| `VITE_STANDARD_REGISTER_DISABLE` | 標準登録の無効化（`true`または`false`） |  |
+| `VITE_BASE_PATH` | 勤怠アプリに使用しているドメイン(`https://example.com/`のように) |  |
+| `VITE_ADMIN_MAIL_ADDRESS` | 管理者用メールアドレス(システムからの通知受信用) | v1.5で廃止 |
+| `VITE_ADMIN_AUDIT_MAIL_ADDRESS` | 監査用メールアドレス(監査ログの送信用) | v1.5で追加 |
 
 ### BUCKET_NAMEの取得方法
 
